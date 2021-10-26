@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    height: 50px;
+    background: blueviolet;
+}
+
+.nav div {
+    display: inline-block;
+    left: 10px;
+    padding: 15px;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+}
+
+.nav ul {
+    position: absolute;
+    right: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: 8px;
+}
+
+.nav ul li a {
+    color: white;
+    padding: 10px 5px;
+    margin-top: 8px;
+}
+
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.home .home-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.about .about-content {
+    margin: 100px auto 0 auto;
+    width: 500px;
+}
+
+.about .about-content h1 {
+    text-align: center;
+}
+
+.about .about-content p {
+    text-align: justify;
+    padding: 10%;
+}
+
+.services .services-content {
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.services-content .card-container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    width: 300px
+}
+
+.services .services-content h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.services-content .card-container ul li p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.contact .container {
+    height: 100vh;
+    width: 100%;
+}
+
+.container .contact-content {
+    width: 100%;
+    height: 10%;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .address-holder {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
